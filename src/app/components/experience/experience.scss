@@ -1,0 +1,64 @@
+.experience {
+    padding-top: 100px;
+    padding-bottom: 140px; 
+    margin-bottom: 140px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+        h2 {
+            font-size: 40px;
+        }
+        p {
+            color: rgb(150, 150, 150);
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        text-align: left;
+        margin-top: 50px;
+
+        .box {
+            position: relative;
+
+
+            i{
+                margin-bottom: 50px;
+                font-size: 30px;
+
+            }
+            h3 {
+                font-size: 15px;
+            }
+            p {
+                margin-top: 50px;
+                color: 
+                #a7a7a7;
+            }
+        }
+
+        .ox {
+            position: relative;
+
+            &::after {
+                content:'';
+                position: absolute;
+                top: 0px;
+                right: 20px;
+                height: 240px;
+                width: 1px;
+                background-color: rgb(202, 202, 202);
+            }
+        }
+        
+
+    }
+    @media (max-width: 667px) {
+        .container {
+            text-align: center;
+            
+        }
+    }
+}

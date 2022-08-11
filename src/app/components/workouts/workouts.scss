@@ -1,0 +1,95 @@
+.workouts {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .boxes {
+            width:65%;
+            .box {
+
+                h2 {
+                    font-size: 40px;
+                    margin-bottom: 50px;
+                }
+                p {
+                    font-size: 22px;
+                    color: #a0a0a0;
+                    margin-bottom: 30px;
+                    margin-left: 18px;
+                }
+
+                .main-item {
+                    margin-bottom: 50px;
+
+                    span {
+                        display: flex;
+                        margin-bottom: 10px;
+                        align-items: center;
+
+                        i{
+                            color: #45b26b;
+                            margin: 10px;
+                        }
+                    }
+                }
+                .button-header {
+
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+    
+                    .btn {
+                        margin-right: 10px;
+                        height: 45px;
+                    }
+                    .butt1 {
+                        background: #FF592C;
+                        outline: none;
+                        border: none;
+                        width: 160px;
+                        color: white;
+                        font-weight: bold;
+                        transition: var(--main-transition);
+    
+                        &:hover {
+                            background-color: #e23100;
+                        }
+                    }
+                    .butt2 {
+                        background: #ffffff;
+                        outline: none;
+                        transition: var(--main-transition);
+                        width: 160px;
+                        font-weight: bold;
+    
+                        &:hover {
+                            background-color: #000000;
+                            color: white;
+                        }
+                    }
+                  }
+
+            }
+        }
+
+
+
+
+
+
+        .pic {
+            img {
+                max-width: 80%;
+                margin-left: 100px;
+            }
+            
+
+        }
+    }
+}

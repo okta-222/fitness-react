@@ -1,0 +1,124 @@
+.book {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f4f5f6;
+    .container {
+        padding-left: 50px;
+        display: flex;
+        align-items: center;
+          gap: 20px;
+
+        .content-img {
+            position: relative;
+            flex: 1;
+            .img22 {
+                max-width: 90%; 
+                position: relative;
+                z-index: 999;
+            }
+  
+            .img44 {
+                max-width: 25%; 
+                position: absolute;
+                left: 30px;
+                bottom: 180px;
+            }
+            .img66 {
+                max-width: 35%; 
+                position: absolute;
+                right: 70px;
+                top: 20px;
+                z-index: 999;
+                
+            }
+            .img88 {
+                max-width: 35%; 
+                position: absolute;
+                right: 50px;
+                top: 220px;
+                
+            }
+  
+  
+        }
+
+
+        // 
+
+
+        .content-txt {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            .main-text {
+
+                h2 {
+                    font-size: 55px;
+                    margin-bottom: 30px;
+                }
+                p{
+                    font-size: 16px;
+                    color: #666;
+                    margin-bottom: 20px;
+                }
+            }
+
+
+
+
+            .body-text{
+                margin-bottom: 30px;
+                .box {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+
+                    .txt {
+                        margin-left: 20px;
+                        margin-top: 20px;
+                        h3 {
+                            font-size: 16px;
+                        }
+                        p{
+                            color: #666;
+                            font-size: 13px;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+
+
+            .end-text{
+                font-size: 14px;
+                color: #999898;
+                font-weight: bold;
+                .span-1 {
+                    color: #45b26b;
+
+                }
+                .span-2 {
+                    color: rgb(0, 0, 0);
+                }
+
+            }
+
+            .btn {
+                background-color: #e86332;
+                margin-left: 190px;
+                color: white;
+                width: 202px;
+                height: 42px;
+            }
+        }
+    }
+    @media (max-width: 778px) {
+        .container {
+            flex-direction:column-reverse;
+            
+        }
+    }
+}
+
+

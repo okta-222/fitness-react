@@ -1,0 +1,35 @@
+.trail {
+    padding-top: 100px;
+    .container {
+        text-align: center;
+
+        h4 {
+            color:#666;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        h2 {
+            font-size: 52px;
+            margin-bottom: 22px;
+            
+        }
+        p {
+            color:#666;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .btn {
+            font-size: 14px;
+            font-weight: bold;
+            background-color:  #e86332;
+            color: white;
+            width:160px;
+            transition: var(--main-transition);
+            
+
+            &:hover {
+                background-color:  #ef466f;
+            }
+        }
+    }
+}

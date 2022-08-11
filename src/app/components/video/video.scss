@@ -1,0 +1,145 @@
+.video {
+    padding-bottom: 150px;
+
+    .container {
+        aside{
+            display:flex;
+            justify-content: space-around;
+            margin-bottom: 80px;
+
+            h4 {
+                color: #8b96a8;
+                margin-top: 30px;
+                font-weight: bold;
+            }
+            .info {
+
+                h2 {
+                    font-size: 55px;
+                    margin-bottom: 20px;
+                }
+                p {
+                    font-size: 16px;
+                    color: #8b96a8;
+                }
+            }
+        }
+        @media (max-width: 775px) {
+            aside {
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+
+        .body-content {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            .boxes {
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+                .box {
+
+                    .one {
+                        position: relative;
+                        color: white;
+
+                        &::before {
+                            content: "";
+                            left: -10px;
+                            top: -5px;
+                            position: absolute;
+                            width: 40px;
+                            height: 30px;
+                            background-color: #9757d7;
+                            z-index: -1;
+                            border-radius: 20px;
+                            
+                        }
+
+                    }
+                    .two {
+                        position: relative;
+                        color: white;
+
+                        &::before {
+                            content: "";
+                            left: -10px;
+                            top: -5px;
+                            position: absolute;
+                            width: 40px;
+                            height: 30px;
+                            background-color: #ef466f;
+                            z-index: -1;
+                            border-radius: 20px;
+                            
+                        }
+
+                    }
+                    .three {
+                        position: relative;
+                        color: white;
+
+                        &::before {
+                            content: "";
+                            left: -10px;
+                            top: -5px;
+                            position: absolute;
+                            width: 40px;
+                            height: 30px;
+                            background-color: #45b26b;
+                            z-index: -1;
+                            border-radius: 20px;
+                            
+                        }
+
+                    }
+                    h3 {
+                        margin-top: 30px;
+                        font-size: 18px;
+                    }
+                    p {
+                        margin-top: 20px;
+                        color: #8b96a8;
+                        font-size: 15px;
+                    }
+                }
+            }
+            @media (max-width: 777px) {
+                .boxes {
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    
+                }
+            }
+            .pic {
+                background-color: #e6e8ec;
+                border-radius: 50px;
+            }
+            @media (max-width: 775px) {
+                .pic {
+                    width: 400px;
+                    margin: 0 auto;
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+        @media (max-width: 775px) {
+            .body-content {
+                flex-direction: column;
+                
+            }
+        }
+    }
+}
+
+
+
